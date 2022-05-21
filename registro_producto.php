@@ -19,7 +19,7 @@
                 <?php
                 include('config.php');
                 session_start();
-                if (isset($_POST['registroa'])) {
+                if (isset($_POST['registro_product'])) {
 
                     $Nombre = $_POST['Nombre'];
                     $Apellido = $_POST['Apellido'];

@@ -29,7 +29,7 @@ if (!isset($_SESSION['user_id'])) {
       <table class="table table-bordered ">
         <thead>
           <tr class="table-primary">
-            <th scope="col"><button class="btn " name="login" type="submit"><a href="new_users.php" class="btn btn-outline"><img src="img/inventario.png" width="50" height="30"><strong>Inventario</strong> </a></button></th>
+            <th scope="col"><button class="btn " name="login" type="submit"><a href="admin_productos.php" class="btn btn-outline"><img src="img/inventario.png" width="50" height="30"><strong>Inventario</strong> </a></button></th>
             <th scope="col"><button class="btn " name="login" type="submit"><a href="new_users.php" class="btn btn-outline"><img src="img/compra.png" width="50" height="30"><strong>Compras</strong></a></button></th>
             <th scope="col"><button class="btn " name="login" type="submit"><a href="new_users.php" class="btn btn-outline"><img src="img/factura.png" width="50" height="30"><strong>Facturacion</strong></a></button></th>
 

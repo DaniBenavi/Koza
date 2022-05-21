@@ -14,11 +14,11 @@
 
 <body>
 
-  <div class="container" ><br>
+  <div class="container"><br>
     <div class="row justify-content-center">
       <div class="col-5 p-5 bg-white shadow-lg rounded">
-      <img src="img/logon.png" width="350" height="200"><img/>
-        <h3>Inicio de seccion</h3>
+        <img src="img/logon.png" width="350" height="200"><img />
+        <h3>Inicio de Sesion</h3>
         <hr>
         <form method="post" action="login.php">
           <div class="form-group">

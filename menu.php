@@ -15,11 +15,11 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <strong>Pacientes</strong>
+            <strong>Productos</strong>
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="new_paciente.php">Nuevo paciente</a></li>
-            <li><a class="dropdown-item" href="admin_pacientes.php">Administracion</a></li>
+            <li><a class="dropdown-item" href="new_producto.php">Nuevo Producto</a></li>
+            <li><a class="dropdown-item" href="admin_productos.php">Administracion</a></li>
             <li>
               <hr class="dropdown-divider">
             </li>

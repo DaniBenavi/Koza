@@ -16,8 +16,8 @@ class crud
             <tr>
                 <td><?php echo $row['id']; ?></td>
                 <td><?php echo $row['Nombre']; ?></td>
-                <td><?php echo $row['Apellido']; ?></td>
-                <td><?php echo $row['Genero']; ?></td>
+                <td><?php echo $row['marca']; ?></td>
+                <td><?php echo $row['modelo']; ?></td>
                 <td><?php echo $row['Edad']; ?></td>
                 <td><?php echo $row['Telefono']; ?></td>
                 <td><?php echo $row['Direccion']; ?></td>

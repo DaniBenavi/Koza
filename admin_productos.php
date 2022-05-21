@@ -1,7 +1,7 @@
 <?php
 session_start();
 include('config.php');
-include_once 'class/pacientes.php';
+include_once 'class/productos.php';
 if (!isset($_SESSION['user_id'])) {
     header('Location: index.php');
     exit;
@@ -19,27 +19,27 @@ $crud = new crud($conn);
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <?php require_once "menu.php" ?>
-    <title>LISTA DE PACIENTES</title>
+    <title>LISTA DE Productos</title>
 </head>
 
 <body>
     <div class="container"><br>
         <table id="autos" class="display table table-bordered table-stripe" cellspacing="0" width="100%">
-            <tr>
+            <tr align="center">
                 <th>ID</th>
                 <th>NOMBRE</th>
-                <th>APELLIDO</th>
-                <th>GENERO</th>
-                <th>EDAD</th>
+                <th>MARCA</th>
+                <th>MODELO</th>
+                <!--<th>EDAD</th>
                 <th>TELEFONO</th>
                 <th>DIRECCION</th>
                 <th>EMAIL</th>
                 <th></th>
-                <th></th>
+                <th></th>-->
             </tr>
             <tbody>
                 <?php
-                $query = "SELECT * FROM pacientes";
+                $query = "SELECT * FROM productos";
                 $crud->dataview($query)
                 ?>
 
